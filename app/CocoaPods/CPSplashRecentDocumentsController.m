@@ -18,6 +18,8 @@
 
 @implementation _CPSplashDocument
 
+// Needed for using Cocoa Bindings
+
 - (instancetype)copyWithZone:(NSZone *)zone
 {
   _CPSplashDocument *copy = [[[self class] alloc] init];

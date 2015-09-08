@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 
+/// Handles the getting the recent documents from
+/// the shared NSDocumentController
+
 @interface CPSplashRecentDocumentsController : NSObject
 
 /// Used in NSTableView via IB bindings
