@@ -2,7 +2,7 @@
 #import "CPCLIToolInstallationController.h"
 #import "CPSplashWindowController.h"
 
-NSString * const kCPCLIToolSuggestedDestination = @"/usr/bin/pod";
+NSString * const kCPCLIToolSuggestedDestination = @"/usr/local/bin/pod";
 
 @interface CPAppDelegate ()
 @property (nonatomic, strong, readonly) CPSplashWindowController *splashWindowController;
