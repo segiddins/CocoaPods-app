@@ -1,0 +1,3 @@
+language: objective-c
+install: rake bundle:build >/dev/null
+script: rake bundle:test app:build >/dev/null
